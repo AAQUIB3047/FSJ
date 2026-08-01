@@ -1,12 +1,6 @@
 import java.util.Scanner;
 
-/*
-constructor  is a special function
-it has same name as the class name
-access specifier is public 
-it may or may not have parameters
-it is invoked(called) automatically when an object is created
-*/
+
 class Person {
 
     private String name;
@@ -28,10 +22,7 @@ class Person {
         weight = w;
     }
 
-    // if you have two or more constructor
-    // in the same class with different parameters
-    // then it is called constructor overloading
-
+  
     public void display() {
         System.out.println("Name is " + name);
         System.out.println("Age is " + age);
